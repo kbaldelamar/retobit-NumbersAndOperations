@@ -1,6 +1,7 @@
-# RetoBit: Declaración de variables y arrays 🤖
+# RetoBit: Numbers and operations 👩‍🔬
 
-En este ejercicio, vamos a practicar la declaración de variables en JAVA. Además, también te será útil para trabajar con git y github, herramientas fundamentales en el desarrollo de software.
+En este RetoBit, vamos a trabajar con números. Haremos alguna que otra operación básica, casting, y usaremos el Math. 
+Estos ejercicios son útiles también para practicar el uso de git, testing y pull requests. Herramientas esenciales en un entorno de trabajo. 
 
 ## Fork del repositorio:
 
