@@ -9,9 +9,12 @@ public class NumbersAndOperations {
         int numberA;
         int numberB;
 
-        // Tu código aquí
+       numberA=23;
+       numberB=40;
 
-        return 0; // Sustituye el 0 por result
+       int result= numberA + numberB;
+
+        return result;
     }
 
     /**
@@ -24,9 +27,9 @@ public class NumbersAndOperations {
         int numberA = 10;
         int numberB = 3;
 
-        // Tu código aquí
+        float result = (float) numberA / numberB;
 
-        return 0.0f; // sustituye 0.0f por la variable "result"
+        return result; // sustituye 0.0f por la variable "result"
     }
 
     /**
@@ -36,12 +39,12 @@ public class NumbersAndOperations {
      * @return No modifiques el return
      */
     public int modulo(){
-        int numberA = 1;
-        int numberB = 1;
+        int numberA = 4;
+        int numberB = 3;
 
-        // Tu código aquí
+        int result = numberA % numberB;
 
-        return numberA % numberB; // No hace falta modificar el return. Si los valores que has asignado son correctos, el test pasará 😉
+        return result; // No hace falta modificar el return. Si los valores que has asignado son correctos, el test pasará 😉
     }
 
     /**
@@ -51,9 +54,7 @@ public class NumbersAndOperations {
      * @return No modifiques el return
      */
     public int randomizer(){
-        int randomNumber = 9999;
-
-        // Tu código aquí
+        int randomNumber = (Math.round((float)Math.random()*100));
 
         return randomNumber; // No hace falta modificar el return. Si los valores que has asignado son correctos, el test pasará 😉
     }
@@ -67,10 +68,10 @@ public class NumbersAndOperations {
     public int power(){
         int numberA = 9;
         int numberB = 3;
-
+        int result = (int) Math.pow(numberB, numberA);
         // Tu código aquí
 
-        return 0; // sustituye el 0 por la variable result
+        return result; // sustituye el 0 por la variable result
     }
 
     /**
@@ -81,7 +82,7 @@ public class NumbersAndOperations {
      * @return No modifiques el return
      */
     public long roundNumber() { // Usamos 'long' porque Math.round() devuelve long
-        double decimalNumber = 0.0;
+        double decimalNumber = 9.6;
 
         // Tu código aquí
 
@@ -98,9 +99,9 @@ public class NumbersAndOperations {
     public int combinedOperations() {
         int initialValue = 7;
 
-        // Tu código aquí
+        int finalResult = (initialValue + 5) * 13;
 
-        return 0; // Sustituye el 0 por finalResult
+        return finalResult; // Sustituye el 0 por finalResult
     }
 
     public static void main(String[] args) {
